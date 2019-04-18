@@ -1,19 +1,43 @@
 [
     {
-        "question": "Whats the meaning of life ? ",
+        "question": "Which of the following vegetables is not one of the ingredients of V-8 juice? ",
         "answers": [
-            "Not much",
-            "King and country",
-            "To be or not to be"
+            "beet",
+            "carrot",
+            "spinach",
+            "cabbage"
         ],
-        "correctAnswer": 2
+        "correctAnswer": 3
     },
     {
-        "question": "How many pies in a box ? ",
+        "question": "What country produces the most potatoes?",
         "answers": [
-            "4 and a half",
-            "3 and a piece"
+            "China",
+            "United States",
+            "Ireland",
+            "Russia"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What soft-drink company introduced the brand Slice?",
+        "answers": [
+            "Dr. Pepper",
+            "Coca Cola" ,
+            "Seven Up",
+            "Pepsico"
         ],
         "correctAnswer": 1
+    },
+    {
+        "question": "According to a 1980s Beverage Media poll of four hundred bartenders, what is the average male customers favorite drink?",
+        "answers": [
+            "beer" ,
+            "bourbon",
+            "scotch",
+            "vodka"
+        ],
+        "correctAnswer": 0
     }
+    
 ]
