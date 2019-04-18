@@ -18,17 +18,6 @@ const ( // iota is reset to 0
 )
 
 func GetQuestion(questionIndex int) (api.JSONQuestionResponse, error) {
-	// url := getAPIEnpointUrl(getQuestionsAPIEnpoint) + strconv.Itoa(questionIndex)
-	// result, err := sendServerRequest(url)
-	// if err != nil {
-	// 	return JSONQuestion{}, err
-	// }
-	// var jsonResult JSONQuestion
-	// err = json.Unmarshal(result, &jsonResult)
-	// if err != nil {
-	// 	return JSONQuestion{}, err
-	// }
-	// return jsonResult, nil
 
 	url := getAPIEnpointURL(getQuestionsAPIEnpoint) + strconv.Itoa(questionIndex)
 	result, err := sendServerRequest(url)
