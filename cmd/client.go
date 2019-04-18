@@ -39,12 +39,12 @@ var clientCmd = &cobra.Command{
 
 			allUsersScores := client.GetScoresList()
 
-			// fmt.Println(allUsersScores)
-
 			rank := client.GetScoreRanked(allUsersScores, percentageScore)
 
-			fmt.Printf("Your score is  %.2f percent , Your rank is %v \n", percentageScore, rank)
+			performancePercentage := (float32(rank) / float32(len(allUsersScores))) * float32(100)
 
+			fmt.Printf("Your score is  %.2f percent , Your rank is %v \n", percentageScore, rank)
+			fmt.Printf("---- You where better then %.2f percant of all quizer ----- \n\n", performancePercentage)
 		}
 
 		// fmt.Println("client called")

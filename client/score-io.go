@@ -69,7 +69,7 @@ func bubbleSortScoreList(scores []float32) []float32 {
 		swapped = false
 		n := len(scores)
 		for i := 1; i < n; i++ {
-			if scores[i-1] < scores[i] {
+			if scores[i-1] > scores[i] {
 				originalIValue := scores[i]
 				scores[i] = scores[i-1]
 				scores[i-1] = originalIValue

@@ -32,7 +32,7 @@ var scoresCmd = &cobra.Command{
 		savedScores := client.GetScoresList()
 		if len(savedScores) > 0 {
 			for index, score := range savedScores {
-				fmt.Printf("Rank %v Score %v \n", index, score)
+				fmt.Printf("Rank %v Score %v \n", index+1, score)
 			}
 		} else {
 			fmt.Println("The quiz has never been played :( ")
