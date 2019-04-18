@@ -1,0 +1,19 @@
+[
+    {
+        "question": "Whats the meaning of life ? ",
+        "answers": [
+            "Not much",
+            "King and country",
+            "To be or not to be"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "How many pies in a box ? ",
+        "answers": [
+            "4 and a half",
+            "3 and a piece"
+        ],
+        "correctAnswer": 1
+    }
+]
